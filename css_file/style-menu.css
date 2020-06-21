@@ -154,12 +154,20 @@
 
     #button-home {
         padding-left: 0.4vh;
-        padding-right: 1.2vh;
+        padding-right: 1.4vh;
+    }
+
+    #button-home span {
+        font-size: 15px;
     }
 
     #button-save {
         padding-left: 0.5vh;
-        padding-right: 1.3vh;
+        padding-right: 1.4vh;
+    }
+
+    #button-save span {
+        font-size: 15px
     }
 
     #search-id {
