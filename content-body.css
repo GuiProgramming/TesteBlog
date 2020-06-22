@@ -1,0 +1,19 @@
+#pipocas {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#pipocas article {
+    margin: 0 8px;
+}
+
+#pipocas p {
+    color: rgb(226, 222, 222);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#pipocas img {
+    width: 300px;
+    height: auto;
+}
