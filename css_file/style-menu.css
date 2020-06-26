@@ -114,7 +114,7 @@
     outline: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
     #logo {
         display: none;
     }
@@ -193,3 +193,18 @@
         background:rgb(78, 77, 77);
     }
 }
+
+
+/* Função para tela horizontal */
+
+@media (max-height: 480px) {
+    #button-home {
+        background: transparent;
+    }
+
+    #button-save {
+        background: transparent;
+    }
+}
+
+
