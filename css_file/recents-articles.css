@@ -48,7 +48,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(200px, 200px);
-    border: 1px solid wheat;
+    border: 1px solid rgb(255, 255, 255);
     grid-gap: 10px
 }
 
