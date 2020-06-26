@@ -114,7 +114,7 @@
     outline: none;
 }
 
-@media (max-width: 678px) {
+@media (max-width: 800px) {
     #logo {
         display: none;
     }
@@ -154,7 +154,7 @@
 
     #button-home {
         padding-left: 0.5vh;
-        padding-right: 1.5vh;
+        padding-right: 1.4vh;
     }
 
     #button-home i {
