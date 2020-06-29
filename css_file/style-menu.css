@@ -2,8 +2,6 @@
     position: fixed;
     height: 100%;
     width: 16em;
-    min-width: 16em;
-    display: block;
     background: var(--color-primary);
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -17,7 +15,7 @@
 }
 
 #logo {
-    margin: 5px 0;
+    margin: 5px auto;
 }
 
 #logo img {
@@ -124,8 +122,6 @@
         bottom: 0;
         height: 80px;
         width: 100%;
-        min-width: 100%;
-        max-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -197,7 +193,7 @@
 
 /* Função para tela horizontal */
 
-@media (max-height: 480px) {
+@media (max-height: 440px) {
     #button-home {
         background: transparent;
     }
