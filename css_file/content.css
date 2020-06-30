@@ -5,8 +5,8 @@
     /* outra forma de adicionar a medida no width:
     width: calc(100% - 16em); 
     */
-    grid-template-columns: 120px repeat(4 120px);
-    grid-template-rows: 100px repeat(4, 250px);
+    grid-template-columns: 120px repeat(2 120px);
+    grid-template-rows: 100px repeat(2, 250px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -19,14 +19,12 @@
 
 #content header {
     margin-top: 4px;
-    grid-column: 1 / 5;
+    grid-column: 1 / 2;
     border-top: 4px solid white;
     border-radius: 2px;
 }
 
 .item {
-    justify-self: center;
-    align-self: center;
     border-radius: 4px;
     background: rgb(134, 134, 133);
 }
