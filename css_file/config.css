@@ -20,13 +20,14 @@ body {
     -ms-outlne: none;
     outline: none;   
     text-rendering:  optimizeLegibility;
-    background: rgb(48, 40, 40)
+    background:rgb(70, 69, 73);
 }
 
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 input[type="search"]::-webkit-search-decoration,
